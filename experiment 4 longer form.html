@@ -13,9 +13,9 @@
 
     <form action="https://www.google.com.mt" method="GET">
         <label for="First Name">Fisrt name</label>
-        <input type="text">
+        <input type="text" placeholder="John">
         <label for="Last Name">Last Name </label>
-        <input type="text">
+        <input type="text" placeholder="Smith">
         <br>
         <label for="Male">Male</label>
         <input id="Male" name="Marketing Preference" type=radio value="Male">
@@ -23,9 +23,36 @@
         <input id="Female" name="Marketing Preference" type=radio value="Female">
         <br>
         <label for="email">email</label>
-        <input id="email" type="email">
+        <input id="email" type="email" placeholder="your email">
         <label for="password">password </label>
-        <input id="password" type="password" minlength="5" maxlength="10">
+        <input id="password" type="password" minlength="5" maxlength="10" placeholder="your password">
+        <br>
+        <label for="pet-select">Birthday</label>
+
+        <select id="Day">
+            <option value="Day">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <select id="Month">
+            <option value="">Month</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <select id="Year">
+            <option value="">Year</option>
+            <option value="1998">1998</option>
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
+        </select>
+        <br>
+        <legend>I agree to the terms and conditions</legend>
+        <input type="checkbox" unchecked />
+
         <br>
         <input type="Submit" value="Submit">
     </form>
