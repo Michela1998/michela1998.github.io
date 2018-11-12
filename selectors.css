@@ -1,5 +1,7 @@
 /* Style the HTML elements according to the following instructions. 
-DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS! */
+DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS! 
+MY COMMENTS ARE IN CAPS
+DIVS ARE ALL CREATED IN THE HTML AND THEN EDITED IN THE HTML*/
 
 /* Give the <body> element a background of #bdc3c7*/
 body{
@@ -18,7 +20,8 @@ h2{
 }
 
 
-/* Make all <li> elements blue(pick your own hexadecimal blue)*/
+/* Make all <li> elements blue(pick your own hexadecimal blue)
+DO NOT USE ASTERIX, JUST RIGHT LI*/
 li{
     color: blue;
 } 
@@ -35,12 +38,14 @@ input{
 }
 
 
-/* Give everything with the class 'hello' a white background*/
+/*USE FULLSTOP FOR CLASS- CLASSES ARE THINGS WE NAME IN THE HTML
+ Give everything with the class 'hello' a white background*/
 .hello{
     background-color: white;
 }
 
-/* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
+/*USE # FOR ELEMENTS 
+Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
 #special{
     border: blue 2px solid;
 }
@@ -50,18 +55,25 @@ div p {
     font-size:25.px;
 }
 
-/*Make only inputs with type 'text' have a gray background*/
+/*Make only inputs with type 'text' have a gray background
+THIS IS AN ATTRIBUTE SELECTOR ATTRIBUTE=TYPE AND ELEMENT IS INPUT*/
 input[type="text"]{ 
     background-color: gray;
 }
 
 
-/* Give both <p>'s inside the 3rd <div> a pink background*/
-div 3{
-    
+/* Give both <p>'s inside the 3rd <div> a pink background
+IN ORDER TO NOT SELECT EVERYTHING YOU NEED TO USE NTH OF RATHE RTHAN P
+
+*/
+div:nth-of-type(3) p {
+    background: pink;
 }
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
+div:nth-of-type(3)nth-child (2){
+    border:5px white solidcolor;
+}
 
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
