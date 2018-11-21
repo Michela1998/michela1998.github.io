@@ -1,0 +1,12 @@
+.date{
+font-family: Inconsolata, sans-serif;
+text-transform: uppercase;
+color: rgba(64, 60, 105, 0.52);
+}
+body{
+    border: solid rgb(26, 29, 41);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 20;
+
+}
