@@ -1,12 +1,26 @@
 .date{
-font-family: Inconsolata, sans-serif;
-text-transform: uppercase;
-color: rgba(64, 60, 105, 0.52);
+    font-family: Inconsolata, sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #3098dd
 }
 body{
-    border: solid rgb(26, 29, 41);
+    border: solid #bdc7cf 20px;
     margin: 20px auto;
     padding: 20px;
-    max-width: 20;
+    max-width: 800px;
+    width: 80%;
+    min-width: 30px;
 
+}
+
+h3 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.indent{
+    padding-left: 10px;
+    border-left: solid #bdc7cf 20px;
 }
